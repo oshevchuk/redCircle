@@ -99,10 +99,14 @@ h2{
     min-height: 140px;
     margin: 0;
     display: flex;
+    max-width: 730px;
+    justify-content: space-between;
+    width: 100%;
     li{
       display: inline-flex;
       align-items: center;
-      padding: 0px 20px;
+      //padding: 0px 20px;
+      padding: 0px 0px;
       border-bottom: 4px solid transparent;
       &.active{
         border-bottom: 4px solid #bc1f31;
@@ -550,15 +554,19 @@ h2{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin:10px 0px;
+        margin:20px 0px;
         &:after{
           position: relative;
           content: "";
           display: block;
           width: 10px;
           height: 10px;
+          margin-left: 10px;
           background-image: url('../img/arrow.png');
         }
+      }
+      p{
+        display: none;
       }
     }
   }

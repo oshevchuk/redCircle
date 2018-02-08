@@ -78,11 +78,14 @@ h2 {
     list-style: none;
     min-height: 140px;
     margin: 0;
-    display: flex; }
+    display: flex;
+    max-width: 730px;
+    justify-content: space-between;
+    width: 100%; }
     .header .menu li {
       display: inline-flex;
       align-items: center;
-      padding: 0px 20px;
+      padding: 0px 0px;
       border-bottom: 4px solid transparent; }
       .header .menu li.active {
         border-bottom: 4px solid #bc1f31; }
@@ -457,14 +460,17 @@ h2 {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 10px 0px; }
+      margin: 20px 0px; }
       .faq ul li a:after {
         position: relative;
         content: "";
         display: block;
         width: 10px;
         height: 10px;
+        margin-left: 10px;
         background-image: url("../img/arrow.png"); }
+    .faq ul li p {
+      display: none; }
   .faq div {
     margin-top: 78px; }
     .faq div h2 {
