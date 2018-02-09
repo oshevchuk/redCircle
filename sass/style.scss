@@ -254,6 +254,8 @@ h2{
       position: relative;
       img{
         object-fit: cover;
+        width: 100%;
+        height: 210px;
       }
       &:before{
         content: "";
@@ -454,7 +456,7 @@ h2{
   grid-template: "a b b" "a c d" "e e d";
 
   &>div{
-    width: 107%;
+    width: 100%;
   }
   .area-a{
     grid-area: a;
@@ -711,5 +713,12 @@ h2{
     line-height: 21px;
     text-align: center;
     padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container{
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

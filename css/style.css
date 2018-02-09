@@ -209,7 +209,9 @@ h2 {
     margin-bottom: 170px;
     position: relative; }
     .options > div .image img {
-      object-fit: cover; }
+      object-fit: cover;
+      width: 100%;
+      height: 210px; }
     .options > div .image:before {
       content: "";
       position: absolute;
@@ -379,7 +381,7 @@ h2 {
   display: grid;
   grid-template: "a b b" "a c d" "e e d"; }
   .our-story > div {
-    width: 107%; }
+    width: 100%; }
   .our-story .area-a {
     grid-area: a;
     width: 313px; }
@@ -586,3 +588,8 @@ h2 {
     line-height: 21px;
     text-align: center;
     padding-bottom: 26px; }
+
+@media screen and (min-width: 1000px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; } }
