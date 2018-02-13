@@ -1,0 +1,18 @@
+Great work! Here are the changes (from top to bottom):
+
+- Increase size of Red Circle logo. Also, "REAL ESTATE" now black.
+- Change text "Agent" to "Agents". Link goes to an "Comming Soon" page.
+- Remove Call for Free Help button at top
+- The main graphic changes (see PSD). Phone number added. Social media links removed.
+
+- Add a horizontal red bar to separate the sections "What we do" and "know your options"  
+- "FORECLOSURE TIMELINE" section is modified. "PREFORECLOSURE, NOTICE OF DEFAULT, NOTICE OF TRUSTEE SALE" ARE ON ONE LINE and new text. Equal spacing. (see PSD)
+
+- Our Story text changed (see world document)
+- Text under "RICK PRAG" and "ADRIANA PRAG" is left justified and lines up with left of picture. Text should span distance of picture.
+
+- Add a horizontal red bar to separate "our story" and "FAQ" section.
+- New Questions and corrections made to text for FAQ (see Word document)
+
+- What's Next is modified. See file. 
+- Bottom section modifiled. See file. I don't have the font in the original file. The Copyright text should be the same font as the rest.

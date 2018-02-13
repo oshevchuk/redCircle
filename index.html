@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Red Circle</title>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="css/style.css">
@@ -14,13 +15,18 @@
 
         <ul class="menu">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">What We Do</a></li>
-            <li><a href="#">Timeline</a></li>
-            <li><a href="#">How We Help</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Agent</a></li>
+            <li><a href="#what-we-do">What We Do</a></li>
+            <li><a href="#time-line">Timeline</a></li>
+            <li><a href="#our-story">How We Help</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Agents</a></li>
         </ul>
+        <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
 </div>
 
@@ -28,20 +34,24 @@
     <div class="container">
         <div>
             <h1>
-                We Help Homeowners Get Out of Foreclosure
+                We Help Homeowners Get <br> Out of Foreclosure
             </h1>
-            <a href="transparent-btn">Call For Free Help</a>
+            <!--<a href="transparent-btn">Call For Free Help</a>-->
+            <div class="consultation">
+                FREE CONSULTATION <br>
+                <span>619-841-1255</span>
+            </div>
         </div>
-        <ul class="social">
-            <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="img/twiter.png" alt="twiter"></a></li>
-            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
-            <li><a href="#"><img src="img/google.png" alt="google"></a></li>
-        </ul>
+        <!--<ul class="social">-->
+            <!--<li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>-->
+            <!--<li><a href="#"><img src="img/twiter.png" alt="twiter"></a></li>-->
+            <!--<li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>-->
+            <!--<li><a href="#"><img src="img/google.png" alt="google"></a></li>-->
+        <!--</ul>-->
     </div>
 </div>
 
-<div class="container what-we-do">
+<div class="container what-we-do" id="what-we-do">
     <h2>What We Do</h2>
     <div>
         <div>
@@ -63,6 +73,10 @@
             <p>Now we take action and start executing on our plan.</p>
         </div>
     </div>
+</div>
+
+<div class="container line">
+<hr>
 </div>
 
 <div class="container options">
@@ -132,7 +146,7 @@
     </div>
 </div>
 
-<div class="container-fluid time-line">
+<div class="container-fluid time-line" id="time-line">
     <div class="container">
     <h2>Foreclosure Timeline</h2>
     <div class="time-piker">
@@ -175,36 +189,20 @@
     <div class="timeline-descriptions">
         <div>
             <h3>Preforeclosure</h3>
-            <p>Missing 3 or more mortgage
-                payments. Late payments are
-                generally reported to the credit
-                bureaus and negatively affects the
-                borrower's credit rating.
+            <p>This period occurs when the homeowner is missing mortgage payments, but prior to a Notice of Default being recorded. As least 3 months of payments must be missed before a Notice of Default can be filed. Late payments are generally reported to the credit bureaus and negatively affects the borrower's credit rating.
             </p>
         </div>
         <div class="middle-item">
-            <h3>Notice of <br>
+            <h3>Notice of
                 Default</h3>
-            <p>This is a publically recorded document filed after a minimum of 3 mortgage payments have been missed.
-                This officially marks the beginning of foreclosure. A law firm is now working on behalf of the lien
-                holder (usually the mortgage company) to handle foreclosure proceedings. The document has a default
-                amount listed. If this amount is paid (attorney fees may also be added) the default is "cured" and the
-                account becomes current and is no longer in foreclose. The lien holder generally files a Release of Lis
-                Pendons to signify the new status.</p>
+            <p>This publicly recorded document officially marks the beginning of foreclosure. A law firm is now working on behalf of the lien holder to handle foreclosure proceedings. The homeowner can get out of foreclosure by paying the default amount. Once done a Release of Lis Pendons should be filed by the lender.
+            </p>
         </div>
         <div>
-            <h3>Notice of <br>
+            <h3>Notice of
                 Trustee Sale </h3>
-            <p>
-                This publically recorded document is
-                recorded a minimum of 90 days the
-                Notice of Default was recorded. There
-                is now an public auction scheduled to
-                sell the property. The auction can be 21
-                days from the recording of the Notice
-                of Trustee Sale. The borrower has up
-                until 5 days prior to the auction to cure
-                the default.
+            <p>This publically recorded document is recorded a minimum of 90 days after the Notice of Default was recorded. There is now a public auction scheduled to sell the property. The auction can be 21 days from the recording of the Notice of Trustee Sale. The borrower has up until 5 days prior to the auction to cure the default.
+
             </p>
         </div>
     </div>
@@ -212,7 +210,7 @@
 </div>
 
 <div class="container-fluid our-story-ground">
-<div class="container our-story">
+<div class="container our-story" id="our-story">
     <div class="area-a images">
         <div>
             <img src="img/story1.png" alt="">
@@ -245,7 +243,12 @@
 </div>
 </div>
 
-<div class="container faq">
+
+<div class="container line">
+    <hr>
+</div>
+
+<div class="container faq" id="faq">
     <h2>Faq</h2>
     <ul class="tabs">
         <li><a >How do you make money? What's in it for you?</a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
@@ -265,16 +268,20 @@
         <li><a >How much equity do I have? </a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
         <li><a >How can a reverse mortgage foreclose? </a><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
     </ul>
-    <div>
-        <h2>What’s Next?</h2>
-        <span>(858) 352-8922</span>
-        <p>Call For Free Help Today</p>
+    <div class="tel">
+        <h2 class="next">What’s Next?</h2>
+        Call For Free Help<br>
+        <span>619-841-1255</span>
     </div>
 </div>
 
 <div class="container-fluid map">
-    <div></div>
-    <div class="contact">
+    <div class="cp">
+        <br>
+        <img src="img/footer-logo.png" alt="">
+        <p class="copyring">© Copyrght Redcircle Reallty. 2018. All Rights Reserved.  DRE # 01847470</p>
+    </div>
+    <div class="contact" id="contact">
         <h2>Contact</h2>
         <div>
             <img src="img/location.png" alt="">
@@ -331,7 +338,14 @@
         crossorigin="anonymous"></script>
 <script>
     $('.tabs li a').click(function (e) {
-        $(this).parent().find('p').show();
+        $('.tabs').find('p').hide();
+        $(this).parent().find('p').fadeIn(300);
+    });
+    $(document).ready(function(){
+        $('#nav-icon1').click(function(){
+            $('.menu').toggleClass('show');
+            $(this).toggleClass('open');
+        });
     });
 </script>
 
